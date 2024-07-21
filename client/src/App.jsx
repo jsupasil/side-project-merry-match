@@ -3,6 +3,20 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import heart from "./assets/Vector.svg";
+import {
+  BasicIcon,
+  PremiumIcon,
+  MerryIcon,
+  MerryMatchIcon,
+  MerrySearchIcon,
+  EditIcon,
+} from "./components/icons-logos/icons";
+import {
+  MerryMatchLogo,
+  FacebookLogo,
+  TwitterLogo,
+  InstagramLogo,
+} from "./components/icons-logos/logos";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,6 +31,17 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
         <img src={heart} className=" fill-blue-700" alt="Heart logo" />
+        <BasicIcon className="  w-36 h-36 ; fill-white" />
+        <PremiumIcon className="  w-36 h-36 ; fill-white" />
+        <MerryIcon className="  w-36 h-36 bg-red-500 ; fill-blue-500" />
+        <MerryMatchIcon className="  w-36 h-36 bg-red-500 ; fill-blue-500" />
+        <MerrySearchIcon className="  w-36 h-36 bg-red-500 ; fill-blue-500" />
+        <EditIcon className="  w-36 h-36 bg-red-500 ; fill-blue-500 ; fill-black " />
+        <MerryMatchLogo className=" w-36 h-36 bg-white" />
+
+        <FacebookLogo className=" w-36 h-36 bg-black; fill-red-200" />
+        <InstagramLogo className=" w-36 h-36 bg-black; fill-red-200" />
+
         <svg
           width="30"
           height="26"
