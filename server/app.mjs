@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 import db from "./utils/db.mjs";
-import dotenv from "cloudinary";
+import dotenv from "dotenv";
 
 dotenv.config();
 

@@ -71,7 +71,10 @@ export default {
         main: "#FCFCFE",
         dark: "#160404",
       },
+      fontFamily: {
+        nunito: ["Nunito"],
+      },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [],
 };
